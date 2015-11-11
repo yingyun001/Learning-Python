@@ -2,8 +2,8 @@
 
 ---
 
-# 先来看我写的错误的代码：
 ~~~ python
+# 先来看我写的错误的代码：
 class Stu(object):
    # setter
    @score.setter
