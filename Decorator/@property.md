@@ -1,6 +1,7 @@
 # 关于 @property
 
 ---
+
 # 先来看我写的错误的代码：
 ~~~ python
 class Stu(object):
@@ -27,5 +28,6 @@ NameError: name 'score' is not defined
 ~~~
 
 现在知道了:**@property** 要放到前面啊！
+
 ---
 
