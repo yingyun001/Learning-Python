@@ -31,3 +31,4 @@ NameError: name 'score' is not defined
 
 ---
 
+* 说实话，现在处于 Python 小白阶段的我还没有真切的感受到 **`@property`** 带来的好处，目前的理解就是从网站尚学到的而已：
