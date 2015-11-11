@@ -1,4 +1,4 @@
 # 目录
 
-* [装饰器](装饰器/README.md)
-   * [@property](装饰器/@property.md)
+* [装饰器](Decorator/README.md)
+   * [@property](Decorator/@property.md)
