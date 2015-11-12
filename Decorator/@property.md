@@ -32,3 +32,20 @@ NameError: name 'score' is not defined
 ---
 
 * 说实话，现在处于 Python 小白阶段的我还没有真切的感受到 **`@property`** 带来的好处，目前的理解就是从网站上学到的而已：
+
+  这里用 **`@property`** 装饰器满足了两点好处：
+  * 可以在类的外部对属性进行简单操作，例如：
+    ~~~ python
+    object.property = ***
+    print object.property
+    ~~~
+  
+  * 操作属性时，可以对赋给属性的参数值进行**检查**，例如：
+    ~~~ python
+    def score(self, value):
+        if not isinstance(value, int):
+            raise ValueError('score must be an integer!')
+        if value < 0 or value > 100:
+            raise ValueError('score must between 0 ~ 100!')
+        self._score = value
+    ~~~
